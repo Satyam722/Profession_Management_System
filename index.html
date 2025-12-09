@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding Employees</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>New Employees</h1>
+
+  <div class="form-container">
+    <input type="text" id="name" placeholder="Enter Name" />
+    <input type="text" id="profession" placeholder="Enter Profession" />
+    <input type="number" id="age" placeholder="Enter Age" />
+  </div>
+
+  <button onclick="addEmployee()">Add User</button>
+
+  <div id="message" class="message"></div>
+
+  <h2>Added Employees</h2>
+  <p id="emptyText">You have 0 Employees.</p>
+
+  <div id="employeeList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
